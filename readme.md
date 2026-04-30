@@ -1,6 +1,6 @@
-# VoltStream Energy Usage — ML Models (Linear & Logistic Regression)
+# House Energy Usage Prediction  — ML Models (Linear & Logistic Regression)
 
-This notebook trains two machine learning models on household energy usage data from **VoltStream**, built as part of the Coursera ML Specialisation — Module 1 hands-on activity.
+This notebook trains two machine learning models on household energy usage data , built as part of the ML Module 1 hands-on activity.
 
 ---
 
@@ -39,7 +39,7 @@ Classifies whether a day is a **High Usage** or **Low Usage** day based on consu
 ## Dataset
 
 **File:** `household_dataset.csv`  
-**Source:** VoltStream household energy usage data  
+**Source:** household energy usage data  
 Upload via Google Colab's `files.upload()` when running the notebook.
 
 **Columns used:**
@@ -65,18 +65,7 @@ matplotlib
 seaborn
 ```
 
-Run on **Google Colab** (recommended) — no local setup needed.
 
----
-
-## How to Run
-
-1. Open the notebook in [Google Colab](https://colab.research.google.com/)
-2. Upload `household_dataset.csv` when prompted
-3. Run all cells top to bottom
-4. View outputs: MSE/RMSE, accuracy, classification report, confusion matrix, and plots
-
----
 
 ## Findings
 
@@ -88,4 +77,3 @@ Run on **Google Colab** (recommended) — no local setup needed.
 ## Deliverable
 
 Notebook: `LinearRegression_LogisticRegression.ipynb`  
-Submitted as part of: **Coursera ML Specialisation — Module 1**
