@@ -39,7 +39,7 @@ Classifies whether a day is a **High Usage** or **Low Usage** day based on consu
 ## Dataset
 
 **File:** `household_dataset.csv`  
-**Source:** VoltStream household energy usage data  
+**Source:** household energy usage data  
 Upload via Google Colab's `files.upload()` when running the notebook.
 
 **Columns used:**
