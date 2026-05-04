@@ -78,8 +78,8 @@ This model is useful for:
 
 Logistic Regression is used to classify whether a household day is:
 
-- **Low Usage (0)**
-- **High Usage (1)**
+- **Low  Usage (0) : Negative class**
+- **High Usage (1) : Positive Class**
 
 ### Objective
 Identify whether daily energy behavior falls into a normal or high-consumption category.
@@ -143,19 +143,6 @@ The dataset contains household energy usage measurements used for both regressio
 | `num_appliances_used` | Logistic Regression input |
 | `usage_label` | Logistic Regression target |
 
----
-
-## Workflow
-
-The notebook follows this ML workflow:
-
-1. Load dataset in Google Colab
-2. Explore feature and target variables
-3. Split data into training and testing sets
-4. Train Linear Regression model
-5. Train Logistic Regression model
-6. Evaluate both models
-7. Interpret predictions and performance
 
 ---
 
