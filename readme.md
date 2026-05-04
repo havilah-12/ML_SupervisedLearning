@@ -77,8 +77,8 @@ Where:
 
 Logistic Regression is used to classify whether a household day is:
 
-- **Low Usage (0)**
-- **High Usage (1)**
+- **Low  Usage (0) : Negative class**
+- **High Usage (1) : Positive Class**
 
 ### Objective
 Identify whether daily energy behavior falls into a normal or high-consumption category.
@@ -144,15 +144,15 @@ If probability > threshold, classify as **High Usage**, else **Low Usage**.
 
 ## Workflow
 
+The notebook follows this ML workflow:
+
 1. Load dataset in Google Colab
 2. Explore feature and target variables
 3. Split data into training and testing sets
 4. Train Linear Regression model
-5. Evaluate Linear Regression with MSE and RMSE
-6. Identify and remove target leakage from Logistic Regression features
-7. Train Logistic Regression on cleaned features
-8. Evaluate with accuracy, classification report and confusion matrix
-9. Interpret predictions and performance
+5. Train Logistic Regression model
+6. Evaluate both models
+7. Interpret predictions and performance
 
 ---
 
@@ -227,4 +227,3 @@ numpy
 scikit-learn
 matplotlib
 seaborn
-```
